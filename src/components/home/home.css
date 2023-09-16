@@ -9,7 +9,7 @@
 
 .home__content {
   display: flex;
-  padding-top: 8rem;
+  padding-top: 4rem;
   column-gap: 2rem;
   align-items: center;
 }
@@ -32,11 +32,12 @@
 }
 
 .home_social {
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 2rem;
 }
 
 .icon {

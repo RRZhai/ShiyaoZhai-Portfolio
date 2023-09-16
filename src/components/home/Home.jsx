@@ -13,7 +13,6 @@ const Home = () => {
           <Portrait />
           <Info />
         </div>
-        <Social />
       </div>
     </section>
   );

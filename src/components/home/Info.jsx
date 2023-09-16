@@ -1,5 +1,5 @@
 import React from "react";
-
+import Social from "./Social";
 const Info = () => {
   return (
     <div className="home_data">
@@ -13,6 +13,7 @@ const Info = () => {
         Wanna Talk? 
         <i className="uil uil-message button_icon"></i>
       </a>
+      <Social />
     </div>
   );
 };
