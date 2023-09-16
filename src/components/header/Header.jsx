@@ -1,18 +1,14 @@
 import React, { useState } from "react";
 import "./header.css";
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
-  const handleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+
   return (
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Shiyao Zhai
         </a>
-        {showMenu ? (
-          <div className="nav__menu">
+          <div className="nav__menu show-menu">
             <ul className="nav__list grid">
               <li className="nav__item">
                 <a href="#home" className="nav__link">
@@ -40,15 +36,7 @@ const Header = () => {
                 </a>
               </li>
             </ul>
-            <div className="nav__toggle" onClick={handleMenu}>
-              <i className="uil uil-times nav__close" id="nav-close"></i>
-            </div>
           </div>
-        ) : (
-          <div className="nav__toggle" onClick={handleMenu}>
-            <i className="uil uil-apps"></i>
-          </div>
-        )}
       </nav>
     </header>
   );
