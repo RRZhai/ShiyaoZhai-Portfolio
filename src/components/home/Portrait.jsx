@@ -3,6 +3,7 @@ import React from "react";
 const Portrait = () => {
   return (
     <svg
+    className="animate_img"
     width="100%"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="149.491 133.85 1041.115 846.11"
