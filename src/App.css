@@ -100,17 +100,23 @@ img {
 
 .title{
   font-size: var(--h1-font-size);
-  color: var(--title-color)
+  color: var(--title-color);
+  margin-top: var(--mb-0-25);
 }
 
 .subtitle {
   color: var(--title-color);
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-0-5);
-  margin-bottom: 2rem;
+  margin-bottom: var(--mb-1);
 } 
+
+.description {
+  max-width: 400px;
+  margin-bottom: var(--mb-2);
+}
 
 /* layout */
 .container {
@@ -147,6 +153,32 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+/* scroll */
+.scroll {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.scroll-icon {
+  color: var(--title-color);
+  font-size: 2rem;
+}
+
+.scroll-name {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+  margin-left: 2px;
+}
+
+.scroll-icon :hover {
+  color: var(--title-color-dark);
+  font-weight: var(--font-semibold);
 }
 
 @media screen and (max-width: 990px) {
@@ -193,5 +225,23 @@ img {
     font-size: var(--mini-font-size);
     max-width: 400px;
     margin-bottom: var(--mb-1);
+  }
+  
+  .scroll-icon {
+    color: var(--title-color);
+    font-size: var(--smaller-font-size);
+  }
+  
+  .scroll-name {
+    color: var(--title-color);
+    font-size: var(--mini-font-size);
+    font-weight: var(--font-medium);
+    margin-right: 0;
+    margin-left: 2px;
+  }
+  
+  .scroll-icon :hover {
+    color: var(--title-color-dark);
+    font-weight: var(--font-semibold);
   }
 }

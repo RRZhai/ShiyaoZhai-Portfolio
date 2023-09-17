@@ -6,23 +6,6 @@
   align-items: center;
 }
 
-.home_title {
-  font-size: var(--big-font-size);
-  margin-top: var(--mb-0-25);
-}
-
-.home_subtitle {
-  position: relative;
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-normal);
-  margin-bottom: var(--mb-1);
-}
-
-.home_description {
-  max-width: 400px;
-  margin-bottom: var(--mb-2);
-}
-
 .home_social {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -40,32 +23,6 @@
 .button_icon {
   font-size: 1.5rem;
   margin-left: 0.5rem;
-}
-
-.home_scroll {
-  margin-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: 4rem;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.scroll-icon {
-  color: var(--title-color);
-  font-size: 2rem;
-  margin-left: 0.5rem;
-}
-
-.scroll-name {
-  color: var(--title-color);
-  font-weight: var(--font-medium);
-  margin-right: var(--mb-0-25);
-  margin-left: 2px;
-}
-
-.scroll-icon :hover {
-  color: var(--title-color-dark);
-  font-weight: var(--font-semibold);
 }
 
 .animate_img {
@@ -92,25 +49,6 @@
     position: relative;
   }
 
-  .home_title {
-    font-size: var(--h1-font-size);
-    font-weight: var(--font-semibold);
-    margin-top: var(--mb-0-15);
-  }
-
-  .home_subtitle {
-    position: relative;
-    font-size: var(--small-font-size);
-    font-weight: var(--font-normal);
-    margin-bottom: var(--mb-0-5);
-  }
-
-  .home_description {
-    font-size: var(--mini-font-size);
-    max-width: 400px;
-    margin-bottom: var(--mb-1);
-  }
-
   .button_icon {
     font-size: 1rem;
     margin-left: 0.5rem;
@@ -124,26 +62,6 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     gap: 1rem;
-  }
-  .home_scroll {
-    margin-top: 0.5rem;
-    padding-left: 1rem;
-    margin-bottom: 5rem;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .scroll-name {
-    color: var(--title-color);
-    font-size: var(--small-font-size);
-    font-weight: var(--font-medium);
-    margin-right: var(--mb-0-25);
-    margin-left: 2px;
-  }
-  .scroll-icon {
-    color: var(--title-color);
-    font-size: var(--normal-font-size);
-    margin-left: 0rem;
   }
 }
 
