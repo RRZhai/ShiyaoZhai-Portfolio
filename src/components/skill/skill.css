@@ -1,3 +1,30 @@
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+}
+
+.all_skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .skill_icon{
     width: 40px;
     height: 40px;

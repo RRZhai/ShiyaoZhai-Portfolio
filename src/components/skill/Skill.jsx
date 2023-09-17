@@ -4,10 +4,10 @@ import "./skill.css";
 const Skill = () => {
   return (
     <section className="skill section">
-      <div className="skill contanier">
         <h1 className="title">Skills</h1>
-        <p className="subtitle">skills</p>
+      <div className="all_skills">
         <div className="skill_container container">
+          <p className="subtitle">Frontend</p>
           <ul className="skill_list grid">
             <li className="skill_item">
               <svg
@@ -125,6 +125,7 @@ const Skill = () => {
           </ul>
         </div>
         <div className="skill_container container">
+          <p className="subtitle">Backend</p>
           <ul className="skill_list grid">
             <li className="skill_item">
               <svg
@@ -160,14 +161,23 @@ const Skill = () => {
               Flask
             </li>
             <li className="skill_item">
-              <img className="skill_icon" src='https://marshmallow.readthedocs.io/en/stable/_static/marshmallow-logo.png' /> Marshmallow
+              <img
+                className="skill_icon"
+                src="https://marshmallow.readthedocs.io/en/stable/_static/marshmallow-logo.png"
+              />{" "}
+              Marshmallow
             </li>
             <li className="skill_item">
-              <img className='skill_icon' src='https://clipart-library.com/2023/RcdgAAE9i.png' /> SQL
+              <img
+                className="skill_icon"
+                src="https://clipart-library.com/2023/RcdgAAE9i.png"
+              />{" "}
+              SQL
             </li>
           </ul>
         </div>
         <div className="skill_container container">
+          <p className="subtitle">Graphic Design</p>
           <ul className="skill_list grid">
             <li className="skill_item">
               <img
