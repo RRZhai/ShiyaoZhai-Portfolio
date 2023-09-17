@@ -1,8 +1,14 @@
 .project_container {
     margin: 6rem;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 50% 10%;
 }
 
 .project .content{
     width: 40%;
+}
+
+.slide_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

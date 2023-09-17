@@ -63,8 +63,8 @@ const Projects = () => {
           />
         </div>
         <div className="projects slide_icon">
-          <i class="uil uil-angle-up icon"></i>
-          <i class="uil uil-angle-down icon"></i>
+          <i class="uil uil-angle-up scroll-icon"></i>
+          <i class="uil uil-angle-down scroll-icon"></i>
         </div>
       </div>
     </section>
