@@ -1,0 +1,8 @@
+.project_container {
+    margin: 6rem;
+    grid-template-columns: 40% 60%;
+}
+
+.project .content{
+    width: 40%;
+}
