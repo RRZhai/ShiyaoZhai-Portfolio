@@ -48,7 +48,18 @@
   align-items: flex-start;
 }
 
+.skills .scroll {
+  margin-top: 0;
+}
+
 @media screen and (max-width: 768px) {
+  .skill .title {
+    margin-top: 2.5rem;
+  }
+  .all_skills {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
   .skill_container {
     align-items: flex-start;
   }
@@ -70,5 +81,9 @@
     align-items: flex-start;
     float: left;
     overflow: auto;
+  }
+  .skills .scroll {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
   }
 }

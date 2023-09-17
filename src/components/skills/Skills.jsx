@@ -2,9 +2,9 @@ import React from "react";
 import "./skills.css";
 import Scroll from "../Scroll";
 
-const Skill = () => {
+const Skills = () => {
   return (
-    <section className="skill section">
+    <section className="skill section" id='skills' >
       <h1 className="title">Skills</h1>
       <div className="all_skills">
         <div className="skill_container container">
@@ -232,11 +232,11 @@ const Skill = () => {
           </ul>
         </div>
       </div>
-      <div className="home scroll">
-        <Scroll value='#about'/>
+      <div className="skills scroll">
+        <Scroll value='#projecs'/>
       </div>
     </section>
   );
 };
 
-export default Skill;
+export default Skills;
