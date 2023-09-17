@@ -14,7 +14,9 @@ const Home = () => {
           <Info />
         </div>
       </div>
-      <Scroll />
+      <div className="home scroll">
+        <Scroll />
+      </div>
     </section>
   );
 };

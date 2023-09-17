@@ -29,6 +29,10 @@
   width: 100%;
 }
 
+.scroll{
+  margin-top: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .home__content {
     display: flex;
@@ -62,6 +66,9 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     gap: 1rem;
+  }
+  .scroll{
+    margin-top: 1rem;
   }
 }
 

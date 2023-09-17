@@ -21,7 +21,9 @@ const About = () => {
           technical acumen.
         </p>
       </div>
-      <Scroll />
+      <div className="about scroll">
+        <Scroll />
+      </div>
     </section>
   );
 };

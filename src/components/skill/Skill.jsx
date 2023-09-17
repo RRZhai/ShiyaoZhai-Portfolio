@@ -4,7 +4,7 @@ import "./skill.css";
 const Skill = () => {
   return (
     <section className="skill section">
-        <h1 className="title">Skills</h1>
+      <h1 className="title">Skills</h1>
       <div className="all_skills">
         <div className="skill_container container">
           <p className="subtitle">Frontend</p>
@@ -221,6 +221,13 @@ const Skill = () => {
               />
               Revit
             </li>
+          </ul>
+        </div>
+        <div className="skill_container container language">
+          <p className="subtitle">Languages</p>
+          <ul className="skill_list grid ">
+            <li className="skill_item ">English</li>
+            <li className="skill_item ">Chinese</li>
           </ul>
         </div>
       </div>
