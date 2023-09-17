@@ -1,11 +1,3 @@
-/* .home__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background-color: #f3f3f3;
-} */
 
 .home__content {
   display: flex;
@@ -71,18 +63,16 @@
   margin-left: 2px;
 }
 
+.scroll-icon :hover {
+  color: var(--title-color-dark);
+  font-weight: var(--font-semibold);
+}
+
 .animate_img {
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    margin-left: 0;
-  }
-  .section{
-    padding: 0;
-  }
-
   .home__content {
     display: flex;
     flex-direction: row;
@@ -135,6 +125,14 @@
     padding-bottom: 0.5rem;
     gap: 1rem;
   }
+  .home_scroll {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .scroll-name {
     color: var(--title-color);
     font-size: var(--small-font-size);

@@ -104,10 +104,12 @@ img {
 }
 
 .subtitle {
+  color: var(--title-color);
   display: block;
   font-size: var(--small-font-size);
-  color: var(--title-color);
-  margin-bottom: 4rem;
+  font-weight: var(--font-normal);
+  margin-bottom: var(--mb-0-5);
+  margin-bottom: 2rem;
 } 
 
 /* layout */
@@ -168,5 +170,28 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    margin-left: 0;
+  }
+  .section{
+    padding: 0;
+  }
+  .title {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semibold);
+    margin-top: var(--mb-0-15);
+  }
 
+  .subtitle {
+    position: relative;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-0-5);
+  }
+
+  .description {
+    font-size: var(--mini-font-size);
+    max-width: 400px;
+    margin-bottom: var(--mb-1);
+  }
 }

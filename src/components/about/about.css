@@ -1,0 +1,18 @@
+.about {
+  padding-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about.container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about.container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
