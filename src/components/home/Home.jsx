@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import Social from "./Social";
+import Scroll from "./Scroll";
 import Portrait from "./Portrait";
 import Info from "./Info";
 
@@ -14,6 +14,7 @@ const Home = () => {
           <Info />
         </div>
       </div>
+      <Scroll />
     </section>
   );
 };

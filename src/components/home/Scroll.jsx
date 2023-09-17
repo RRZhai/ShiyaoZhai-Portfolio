@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Scroll = () => {
   return (
-    <div className="home_scroll">
-        <a href="#about" className="home_scroll-button button--flex">
-        <i class="uil uil-scroll"></i>
-        </a>
+    <div className="home_scroll container">
+      <a href="#about" className="home_scroll-button button--flex">
+        <i class="uil uil-scroll scroll-icon"></i>
+        <span className="scroll-name">Scroll Down</span>
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default Scroll
+export default Scroll;
