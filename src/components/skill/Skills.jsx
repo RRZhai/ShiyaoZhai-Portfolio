@@ -1,5 +1,6 @@
 import React from "react";
-import "./skill.css";
+import "./skills.css";
+import Scroll from "../Scroll";
 
 const Skill = () => {
   return (
@@ -230,6 +231,9 @@ const Skill = () => {
             <li className="skill_item ">Chinese</li>
           </ul>
         </div>
+      </div>
+      <div className="home scroll">
+        <Scroll value='#about'/>
       </div>
     </section>
   );

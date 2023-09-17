@@ -22,7 +22,7 @@ const About = () => {
         </p>
       </div>
       <div className="about scroll">
-        <Scroll />
+        <Scroll value='#skills'/>
       </div>
     </section>
   );

@@ -1,9 +1,9 @@
 import React from "react";
 
-const Scroll = () => {
+const Scroll = ({value}) => {
   return (
     <div className="scroll container">
-      <a href="#about" className="home_scroll-button button--flex">
+      <a href={value} className="home_scroll-button button--flex">
         <i class="uil uil-scroll scroll-icon"></i>
         <span className="scroll-name">Scroll Down</span>
       </a>
