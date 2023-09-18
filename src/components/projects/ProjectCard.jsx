@@ -5,8 +5,8 @@ const ProjectCard = ({ project }) => {
     <div className="projects item">
       <div className="projects media">
         <div className="projects image">
-          <img src={project.image} alt="" />
-          {project.image}</div>
+          <img src={project.image} />
+        </div>
         <div className="projects demo">{project.demo}</div>
       </div>
       <div className="projects icon">

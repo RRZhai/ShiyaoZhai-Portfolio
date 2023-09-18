@@ -7,7 +7,7 @@ const Projects = () => {
     title: "GIGU",
     description:
       "GIGU is a user-friendly job searching engine that connects part-time job seekers and employers for short-term gigs",
-    image: "../../assets/gigu_blue.PNG",
+    image: "https://github.com/RRZhai/ShiyaoZhai-Portfolio/blob/main/src/assets/gigu_blue.PNG?raw=true",
     demo: "",
     github: "https://github.com/RRZhai/GIGU-on-demand-job-searching",
     website: "https://gigu-flatiron-version-deploy.onrender.com",
