@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
+
 const Projects = () => {
   const project1 = {
     title: "GIGU",
     description:
       "GIGU is a user-friendly job searching engine that connects part-time job seekers and employers for short-term gigs",
-    image: "",
+    image: "../../assets/gigu_blue.PNG",
     demo: "",
     github: "https://github.com/RRZhai/GIGU-on-demand-job-searching",
     website: "https://gigu-flatiron-version-deploy.onrender.com",

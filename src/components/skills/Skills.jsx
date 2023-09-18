@@ -233,7 +233,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="skills scroll">
-        <Scroll value='#projecs'/>
+        <Scroll value='#projects'/>
       </div>
     </section>
   );
