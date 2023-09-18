@@ -16,7 +16,7 @@ const Projects = () => {
     title: "Animal Crossing Matching",
     description:
       "Animal Crossing Matching is a matching game to improve a  user's memory skills.",
-    image: "",
+    image: "https://github.com/RRZhai/ShiyaoZhai-Portfolio/blob/main/src/assets/Matching.png?raw=true",
     demo: "https://youtu.be/-8mJt1CO7Mo",
     github: "https://github.com/RRZhai/Animal_Crossing_Matching",
     website: "https://rrzhai.github.io/Animal_Crossing_Matching/",
