@@ -8,6 +8,12 @@
     width: 40%;
 }
 
+.project .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .slide_icon {
     display: flex;
     flex-direction: column;
@@ -22,8 +28,34 @@
     margin: 1rem;
 }
 
+.projects .media {
+    position: relative;
+}
+
 .projects .image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.projects .demo {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.projects .demo:hover {
+    opacity: 1;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+.projects .icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
