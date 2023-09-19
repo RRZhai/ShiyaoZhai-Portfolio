@@ -3,21 +3,8 @@ import { useEffect, useRef } from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
 import Scroll from "../Scroll";
-import Swiper from "swiper";
-import "swiper/swiper-bundle.css";
 
 const Projects = () => {
-  useEffect(() => {
-    const swiper = new Swiper("#mainSwiper", {
-        direction: "horizontal",
-        loop: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-}, []);
-
   const project1 = {
     id: 1,
     title: "GIGU",
@@ -73,35 +60,36 @@ const Projects = () => {
               <i className="uil uil-arrow-circle-right button_icon"></i>
             </a>
           </div>
-          <div className="swiper-container" id="mySwiper">
-            <div className="projects swiper-wrapper">
+
+          <div className="projects card">
+            <div className="projects card-container">
               <ProjectCard
-                className="swiper-slide slide_1"
+                className="projects slide slide_1"
                 project={project1}
                 handleSelectProject={handleSelectProject}
               />
               <ProjectCard
-                className="swiper-slide slide_2"
+                className="projects slide slide_2"
                 project={project2}
                 handleSelectProject={handleSelectProject}
               />
               <ProjectCard
-                className="swiper-slide slide_3"
+                className="projects slide slide_3"
                 project={project3}
                 handleSelectProject={handleSelectProject}
               />
+              {/* <i className="uil uil-angle-left-b"></i>
+            <i className="uil uil-angle-right-b"></i> */}
             </div>
-            <div className="swiper-button-prev">
-              <i className="uil uil-angle-left-b"></i>
-            </div>
-            <div className="swiper-button-next">
-              <i className="uil uil-angle-right-b"></i>
-            </div>
+          </div>
+          <div className="projects scroll-icon">
+            <i class="uil uil-angle-up"></i>
+            <i className="uil uil-angle-down"></i>
           </div>
         </div>
       </div>
-      <div className="home scroll">
-        <Scroll value="#about" />
+      <div className="projects scroll">
+        <Scroll value="#contact" />
       </div>
     </section>
   );
