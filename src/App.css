@@ -182,7 +182,12 @@ img {
   font-weight: var(--font-semibold);
 }
 
-@media screen and (max-width: 990px) {
+.icon {
+  font-size: 1.5rem;
+  color: var(--title-color);
+}
+
+/* @media screen and (max-width: 990px) {
   :root {
     --big-font-size: 2.5rem;
     --h1-font-size: 1.5rem;
@@ -193,7 +198,7 @@ img {
     --smaller-font-size: 0.75rem;
     --mini-font-size: 0.625rem;
   }
-}
+} */
 
 @media screen and (max-width: 990px) {
   .container {
@@ -210,24 +215,31 @@ img {
     padding: 0;
   }
   .title {
-    font-size: var(--h1-font-size);
-    font-weight: var(--font-semibold);
-    margin-top: var(--mb-0-15);
+    margin-bottom: 1rem;
   }
 
   .subtitle {
-    position: relative;
-    font-size: var(--small-font-size);
-    font-weight: var(--font-normal);
-    margin-bottom: var(--mb-0-5);
+    margin-bottom: 1rem;
   }
 
   .description {
-    font-size: var(--mini-font-size);
-    max-width: 400px;
-    margin-bottom: var(--mb-1);
+    margin-bottom: 2rem;
+  }
+
+  .button {
+    font-size: var(--normal-font-size);
+  }
+
+  .button_icon {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
   }
   
+/*   
   .scroll-icon {
     color: var(--title-color);
     font-size: var(--smaller-font-size);
@@ -244,5 +256,5 @@ img {
   .scroll-icon :hover {
     color: var(--title-color-dark);
     font-weight: var(--font-semibold);
-  }
+  } */
 }

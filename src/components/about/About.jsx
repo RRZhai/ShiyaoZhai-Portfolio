@@ -1,10 +1,12 @@
 import React from "react";
 import "./about.css";
 import Scroll from "../Scroll";
+import Timeline from "./Timeline";
 
 const About = () => {
   return (
     <section className="about section" id="about">
+      <Timeline />
       <div className="about container">
         <h1 className="title">About Me</h1>
         <p className="subtitle">Full Stack Web Developer</p>
