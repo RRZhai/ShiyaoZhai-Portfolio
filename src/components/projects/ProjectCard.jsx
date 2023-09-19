@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ project, className }) => {
   console.log(project, className);
   return (
-    <div className={`projects media ${className}`}>
+    <div className="projects media card-media active">
       <div className="projects image">
         <img src={project.image} alt={project.title} />
       </div>
@@ -14,6 +14,9 @@ const ProjectCard = ({ project, className }) => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullscreen
         ></iframe>
+      </div>
+      <div className="projects play-icon icon">
+        
       </div>
     </div>
   );

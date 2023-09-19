@@ -62,6 +62,7 @@ const Projects = () => {
               href={projects[currentIndex].website}
               className="button button--flex"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Wanna try?
               <i className="uil uil-arrow-circle-right button_icon"></i>
@@ -69,15 +70,10 @@ const Projects = () => {
           </div>
           <div className="projects card">
             <div className="projects card-container">
-              {projects.map((project, index) => (
-                <ProjectCard
-                  className={`card-media ${
-                    index === currentIndex ? "active" : "inactive"
-                  }`}
-                  key={project.id}
-                  project={project}
-                />
-              ))}
+              <ProjectCard
+                project={projects[currentIndex]}
+                key={currentIndex}
+              />
             </div>
           </div>
           <div className="projects scroll-icon">
