@@ -33,7 +33,6 @@
   .card-media {
     position: relative;
     width: 100%;
-    height: 500px;
   }
   
   .projects .media {
@@ -43,17 +42,16 @@
   
   .projects img {
     max-width: 100%;
-    max-height: 500px;
-    height: 100%;
     border-radius: 1rem;
     object-fit: cover;
+    aspect-ratio: 16/9
   }
   
   .projects .demo {
+    border-radius: 1rem;
     width: 100%;
-    max-height: 500px;
-    /* position: absolute; */
     top: 0;
+    aspect-ratio: 16/9;
   }
   
   iframe {

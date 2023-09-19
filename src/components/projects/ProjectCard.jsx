@@ -6,7 +6,7 @@ const ProjectCard = ({ project, className }) => {
   return (
     <div className="projects media card-media active">
       {play ? (
-        <div className="projects demo">
+        <div className="projects demo media-child">
           <iframe
             src={project.demo}
             title="YouTube video player"
@@ -15,7 +15,7 @@ const ProjectCard = ({ project, className }) => {
           ></iframe>
         </div>
       ) : (
-        <div className="projects image">
+        <div className="projects image media-child">
           <img src={project.image} alt={project.title} />
         </div>
       )}
