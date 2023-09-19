@@ -1,9 +1,23 @@
 import React, { useState } from "react";
+import { useEffect, useRef } from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
 import Scroll from "../Scroll";
+import Swiper from "swiper";
+import "swiper/swiper-bundle.css";
 
 const Projects = () => {
+  useEffect(() => {
+    const swiper = new Swiper("#mainSwiper", {
+        direction: "horizontal",
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+}, []);
+
   const project1 = {
     id: 1,
     title: "GIGU",
@@ -37,22 +51,53 @@ const Projects = () => {
     github: "https://github.com/RRZhai/Haiku_Heaven",
     website: "https://haikuhaven.onrender.com/",
   };
-  const [selectproject, setSelectProject] = useState(project1);
+  const [selectproject, setSelectProject] = useState(project2);
+
   const handleSelectProject = (project) => {
     setSelectProject(project);
   };
+
   return (
     <section className="projects section" id="projects">
       <div className="project_container container grid">
         <div className="project_content">
-          <ProjectCard
-            project={project1}
-            handleSelectProject={handleSelectProject}
-          />
-        </div>
-        <div className="projects slide_icon">
-          <i class="uil uil-angle-left-b scroll-icon"></i>
-          <i class="uil uil-angle-right-b scroll-icon"></i>
+          <div className="project info">
+            <h1 className="project title">{selectproject.title}</h1>
+            <p className="project description">{selectproject.description}</p>
+            <a
+              href={selectproject.website}
+              className="button button--flex"
+              target="_blank"
+            >
+              Wanna try?
+              <i className="uil uil-arrow-circle-right button_icon"></i>
+            </a>
+          </div>
+          <div className="swiper-container" id="mySwiper">
+            <div className="projects swiper-wrapper">
+              <ProjectCard
+                className="swiper-slide slide_1"
+                project={project1}
+                handleSelectProject={handleSelectProject}
+              />
+              <ProjectCard
+                className="swiper-slide slide_2"
+                project={project2}
+                handleSelectProject={handleSelectProject}
+              />
+              <ProjectCard
+                className="swiper-slide slide_3"
+                project={project3}
+                handleSelectProject={handleSelectProject}
+              />
+            </div>
+            <div className="swiper-button-prev">
+              <i className="uil uil-angle-left-b"></i>
+            </div>
+            <div className="swiper-button-next">
+              <i className="uil uil-angle-right-b"></i>
+            </div>
+          </div>
         </div>
       </div>
       <div className="home scroll">
