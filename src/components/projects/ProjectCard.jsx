@@ -16,7 +16,15 @@ const ProjectCard = ({ project, className }) => {
         ></iframe>
       </div>
       <div className="projects play-icon icon">
-        
+        <i class="uil uil-play icon"></i>
+        <i class="uil uil-pause"></i>
+        <a
+          href={project.github}
+          target="_blank"
+          className="home__social-icon"
+        >
+          <i className="uil uil-github icon"></i>
+        </a>
       </div>
     </div>
   );
