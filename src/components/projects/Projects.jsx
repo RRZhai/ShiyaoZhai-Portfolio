@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
+import Scroll from "../Scroll";
 
 const Projects = () => {
   const project1 = {
+    id: 1,
     title: "GIGU",
     description:
       "GIGU is a user-friendly job searching engine that connects part-time job seekers and employers for short-term gigs",
@@ -14,6 +16,7 @@ const Projects = () => {
     website: "https://gigu-flatiron-version-deploy.onrender.com",
   };
   const project2 = {
+    id: 2,
     title: "Animal Crossing Matching",
     description:
       "Animal Crossing Matching is a matching game to improve a  user's memory skills.",
@@ -24,6 +27,7 @@ const Projects = () => {
     website: "https://rrzhai.github.io/Animal_Crossing_Matching/",
   };
   const project3 = {
+    id: 3,
     title: "Haiku Heaven",
     description:
       "Haiku Heaven is a creative platform empowering users to compose and appreciate Haikus",
@@ -40,44 +44,19 @@ const Projects = () => {
   return (
     <section className="projects section" id="projects">
       <div className="project_container container grid">
-        <div className="project content">
-          <h1 className="project title">{selectproject.title}</h1>
-          <p className="project description">{selectproject.description}</p>
-          <a
-            href={selectproject.website}
-            className="button button--flex"
-            target="_blank"
-          >
-            Wanna try?
-            <i className="uil uil-arrow-circle-right button_icon"></i>
-          </a>
-        </div>
-        <div className="projects slide">
+        <div className="project_content">
           <ProjectCard
             project={project1}
             handleSelectProject={handleSelectProject}
           />
-          <ProjectCard
-            project={project2}
-            handleSelectProject={handleSelectProject}
-          />
-          <ProjectCard
-            project={project3}
-            handleSelectProject={handleSelectProject}
-          />
-          <div className="projects icon">
-            <span className="project action-icon">
-              <i className="uil uil-play"></i>
-            </span>
-            <span className="project action-icon">
-              <i className="uil uil-pause"></i>
-            </span>
-          </div>
         </div>
         <div className="projects slide_icon">
-          <i class="uil uil-angle-up scroll-icon"></i>
-          <i class="uil uil-angle-down scroll-icon"></i>
+          <i class="uil uil-angle-left-b scroll-icon"></i>
+          <i class="uil uil-angle-right-b scroll-icon"></i>
         </div>
+      </div>
+      <div className="home scroll">
+        <Scroll value="#about" />
       </div>
     </section>
   );

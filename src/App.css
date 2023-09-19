@@ -86,7 +86,7 @@ button {
 
 img {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 /* class */
@@ -160,6 +160,7 @@ img {
 .scroll {
   margin-top: 0.5rem;
   padding-left: 1rem;
+
   display: flex;
   justify-content: flex-end;
 }
