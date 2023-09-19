@@ -42,11 +42,11 @@
   z-index: 1;
 }
 
-.single-time > span {
+.single-time > span .show{
   display: block;
   position: absolute;
   top: 50%;
-  margin-top: -.2rem;
+  margin-top: -1rem;
   width: 100%;
   cursor: pointer;
 }
@@ -55,23 +55,26 @@
   content: '';
   display: block;
   width: .5rem;
-  height: .5rem;
+  height: 1rem;
   background: var(--title-color);
   margin: 0 auto 1rem;
   border-radius: 50%;
+  top: -.5rem;
 }
 
-.single-time :hover {
-  display: none;
-}
-
-.timeline .image-area {
+.noshow {
   display: none;
   position: absolute;
 }
 
-.single-time.active{
-
+.timeline .image-area:before{
+  content: '';
+  display: block;
+  width: .5rem;
+  height: .5rem;
+  background: var(--title-color);
+  margin: 0 auto 1rem;
+  border-radius: 50%;
 }
 
 .about.container {
