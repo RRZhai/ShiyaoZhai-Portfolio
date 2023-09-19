@@ -1,10 +1,11 @@
 import React from "react";
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, className }) => {
+  console.log(project, className);
   return (
-    <div className="projects media">
+    <div className={`projects media ${className}`}>
       <div className="projects image">
-        <img src={project.image} />
+        <img src={project.image} alt={project.title} />
       </div>
       <div className="projects demo">
         <iframe
