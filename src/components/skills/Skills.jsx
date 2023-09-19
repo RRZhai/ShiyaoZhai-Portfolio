@@ -1,10 +1,18 @@
 import React from "react";
 import "./skills.css";
 import Scroll from "../Scroll";
+import mashmallowIcon from "../../assets/marshmallow-logo.png";
+import SQLIcon from "../../assets/SQL.png";
+import photoshopIcon from "../../assets/Photoshop.png";
+import indesignIcon from "../../assets/InDesign_CC_icon.png";
+import rhinoIcon from "../../assets/Rhino.jpeg";
+import autocadIcon from "../../assets/autocad.png";
+import revitIcon from "../../assets/revit.png";
+import illustratorIcon from "../../assets/illustrator.png";
 
 const Skills = () => {
   return (
-    <section className="skill section" id='skills' >
+    <section className="skill section" id="skills">
       <h1 className="title">Skills</h1>
       <div className="all_skills">
         <div className="skill_container container">
@@ -164,15 +172,15 @@ const Skills = () => {
             <li className="skill_item">
               <img
                 className="skill_icon"
-                src="https://marshmallow.readthedocs.io/en/stable/_static/marshmallow-logo.png"
-              />{" "}
+                src={mashmallowIcon}
+              />
               Marshmallow
             </li>
             <li className="skill_item">
               <img
                 className="skill_icon"
-                src="https://clipart-library.com/2023/RcdgAAE9i.png"
-              />{" "}
+                src={SQLIcon}
+              />
               SQL
             </li>
           </ul>
@@ -183,20 +191,20 @@ const Skills = () => {
             <li className="skill_item">
               <img
                 className="skill_icon"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png"
+                src={photoshopIcon}
               />
               Photoshop
             </li>
             <li className="skill_item">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/1200px-Adobe_InDesign_CC_icon.svg.png"
+                src={indesignIcon}
                 className="skill_icon"
               />
               InDesign
             </li>
             <li className="skill_item">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png"
+                src={illustratorIcon}
                 className="skill_icon"
               />
               Illustrator
@@ -204,21 +212,21 @@ const Skills = () => {
             <li className="skill_item">
               <img
                 className="skill_icon"
-                src="https://global.discourse-cdn.com/mcneel/uploads/default/original/4X/8/1/1/811bca9e86eea0a004ecef3ad2f92f7a69a20262.jpeg"
+                src={rhinoIcon}
               />
               Rhinoceros
             </li>
             <li className="skill_item">
               <img
                 className="skill_icon"
-                src="https://play-lh.googleusercontent.com/y92LD5c5rdlNfquCy-YPNIvdnS4ISEL05wickp28OLya8WlmWQwXfAP0Yys9iTssny3K"
+                src={autocadIcon}
               />
               AutoCAD
             </li>
             <li className="skill_item">
               <img
                 className="skill_icon"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUaCvmKLqhZNlRFGk1Bk8M8ZtSmzd_CXiTR1OogLd8ZsuExVZf96D69zoIFu94VxmsQ_A&usqp=CAU"
+                src={revitIcon}
               />
               Revit
             </li>
@@ -233,7 +241,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="skills scroll">
-        <Scroll value='#projects'/>
+        <Scroll value="#projects" />
       </div>
     </section>
   );
