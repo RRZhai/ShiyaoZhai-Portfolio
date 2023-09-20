@@ -1,7 +1,7 @@
 .project_content {
     display: grid;
     grid-template-columns: 1fr 1.5fr 20px;
-    padding-left: 2rem;
+    margin-left: 2rem;
     margin-right: 2rem;
     align-items: center;
     justify-content: center;

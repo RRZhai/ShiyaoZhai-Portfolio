@@ -13,7 +13,7 @@ const Contact = () => {
           <Form />
         </div>
       </div>
-      <div className="home scroll">
+      <div className="contact scroll">
         <Scroll value="#home" />
       </div>
     </section>

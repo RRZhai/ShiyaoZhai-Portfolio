@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="contact__form container grid">
+    <div className="contact__form all-form">
       <div className="contact__form form">
         <label className="contact__form label">Name</label>
         <input
