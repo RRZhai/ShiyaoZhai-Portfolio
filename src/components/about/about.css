@@ -30,53 +30,50 @@
   align-items: top;
 }
 
+.timeline .all-time {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  align-self: center;
+}
+
 .single-time {
-  width: 20%;
   display: inline-block;
   text-align: center;
   position: relative;
   height: 100%;
-  margin-right: 1rem;
-  margin-left: 1rem;
   transition: width 0.5s;
+  top: 1rem;
   z-index: 1;
 }
 
-.single-time >span:before{
+.timeline .single-time  :before{
   content: "";
   display: block;
-  width: .5rem;
-  height: .5rem;
+  width: 0.5rem;
+  height: 0.5rem;
   background: var(--title-color);
   border-radius: 50%;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
+  top: -1.125rem;
+  /* transform: translateX(-50%); */
 }
+
+.single-time .show > span {
+  position: relative;
+  top: 1rem;
+}
+
+.single-time .noshow {
+  display: none;
+}
+
 .timeline .image-area :before{
-  content: "";
-  display: block;
-  width: .5rem;
-  height: .5rem;
-  background: var(--title-color);
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: none;
 }
 
-.single-time .show {
-  display: block;
-  position: absolute;
-  top: 50%;
-  margin-top: -1rem;
-  width: 100%;
-  cursor: pointer;
-}
-
-.single-time .noshow{
-  display: none
-}
 
 .about.container {
   max-width: 600px;
