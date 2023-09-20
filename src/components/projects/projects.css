@@ -66,8 +66,12 @@ iframe {
   align-items: center;
 }
 
+.projects .scroll {
+  margin-top: 0;
+}
+
 @media screen and (max-width: 990px) {
-  .container {
+  .projects .container {
     margin-left: 0;
     margin-right: 0;
   }
@@ -106,5 +110,8 @@ iframe {
   .projects .card-media {
     display: flex;
     flex-direction: column;
+  }
+  .projects .scroll {
+    margin-top: 1rem;
   }
 }

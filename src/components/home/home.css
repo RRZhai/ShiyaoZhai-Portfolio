@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.home .description {
+  margin-bottom: 2rem;
+}
+
 .home_social {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -25,7 +29,7 @@
 }
 
 .home .scroll{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 768px) {

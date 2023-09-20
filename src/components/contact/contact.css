@@ -1,7 +1,6 @@
 .contact__container {
   display: flex;
   flex-direction: column;
-  padding-top: 4rem;
   column-gap: 2rem;
   align-items: center;
 }
@@ -14,12 +13,13 @@
 }
 
 .contact .all-contacts {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 1rem;
 }
 
 .contact-card {
-  padding: .5rem;
+  padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
   text-align: center;
@@ -65,7 +65,7 @@
 
 .contact__form textarea {
   width: 100%;
-  height: auto;
+  height: 4.5rem;
   border-radius: .5rem;
   border: 1px solid var(--title-color);
   padding: 1rem;
@@ -85,6 +85,9 @@
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
+  .contact .title {
+    margin-top: 2rem
+  }
   .contact .subtitle {
     margin-bottom: .5rem;
   }
@@ -101,6 +104,6 @@
   }
 
   .contact .scroll{
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 }
