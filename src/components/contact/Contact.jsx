@@ -1,7 +1,8 @@
 import React from "react";
 import Scroll from "../Scroll";
 import ContactItems from "./ContactItems";
-import Email from "./Email";
+import Form from "./Form";
+import "./contact.css";
 const Contact = () => {
   return (
     <section className="contact section" id="contact">
@@ -9,7 +10,7 @@ const Contact = () => {
         <h1 className="title">Contact Me</h1>
         <div className="contact__content">
           <ContactItems />
-          <Email />
+          <Form />
         </div>
       </div>
       <div className="home scroll">
