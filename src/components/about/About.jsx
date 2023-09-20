@@ -8,9 +8,9 @@ const About = () => {
     <section className="about section" id="about">
       <Timeline />
       <div className="about container">
-        <h1 className="title">About Me</h1>
-        <p className="subtitle">Full Stack Web Developer</p>
-        <p className="description">
+        <h1 className="about title">About Me</h1>
+        <p className="about subtitle">Full Stack Web Developer</p>
+        <p className="about description">
           I am a dynamic and imaginative individual with a passion for both
           architecture and coding. With experience in Python, JavaScript,
           ReactJS, Redux, RESTful API and HTML/CSS, I bring strong skills in

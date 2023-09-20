@@ -77,8 +77,8 @@ const Projects = () => {
             </div>
           </div>
           <div className="projects scroll-icon">
-            <i className="uil uil-angle-up" onClick={handlePrev}></i>
-            <i className="uil uil-angle-down" onClick={handleNext}></i>
+            <i className="uil uil-angle-up icon" onClick={handlePrev}></i>
+            <i className="uil uil-angle-down icon" onClick={handleNext}></i>
           </div>
         </div>
       </div>

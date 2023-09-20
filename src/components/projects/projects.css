@@ -1,67 +1,110 @@
 .project_content {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr 20px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 20px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap: 2rem;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects .card-container {
+  flex: 0.7;
+  overflow: hidden;
+  position: relative;
+}
+
+.project .info {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.card-media {
+  position: relative;
+  width: 100%;
+}
+
+.projects .media {
+  width: 100%;
+  height: auto;
+}
+
+.projects img {
+  max-width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.projects .demo {
+  border-radius: 1rem;
+  width: 100%;
+  top: 0;
+  aspect-ratio: 16/9;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.projects .icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
   }
-  
-  .card {
-    width: 100%;
-    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .project_container .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .project .title {
+    margin-top: 4rem;
+  }
+  .project_content {
+    display: grid;
+    grid-template-columns: 92% auto;
+    grid-template-rows: 60% auto;
+    grid-template-areas: "info info" "card scroll-icon";
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 0;
+  }
+
+  .project .info{
+    grid-area: info;
+  }
+
+  .projects .card{
+    grid-area: card;
+  }
+
+  .projects .scroll-icon{
+    grid-area: scroll-icon;
+  }
+
+  .projects .card-media {
     display: flex;
     flex-direction: column;
   }
-  
-  .projects .card-container {
-    flex: 0.7;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .project .info {
-    flex: 0.3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f5f5f5;
-  }
-  
-  .card-media {
-    position: relative;
-    width: 100%;
-  }
-  
-  .projects .media {
-    width: 100%;
-    height: auto;
-  }
-  
-  .projects img {
-    max-width: 100%;
-    border-radius: 1rem;
-    object-fit: cover;
-    aspect-ratio: 16/9
-  }
-  
-  .projects .demo {
-    border-radius: 1rem;
-    width: 100%;
-    top: 0;
-    aspect-ratio: 16/9;
-  }
-  
-  iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  
-  .projects .icon {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+}

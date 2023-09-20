@@ -13,7 +13,7 @@ import illustratorIcon from "../../assets/illustrator.png";
 const Skills = () => {
   return (
     <section className="skill section" id="skills">
-      <h1 className="title">Skills</h1>
+      <h1 className="skill title">Skills</h1>
       <div className="all_skills">
         <div className="skill_container container">
           <p className="subtitle">Frontend</p>
