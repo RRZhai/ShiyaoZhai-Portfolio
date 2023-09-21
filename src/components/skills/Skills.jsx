@@ -107,7 +107,7 @@ const Skills = () => {
                     y2="85.228%"
                   >
                     <stop offset="0%"></stop>
-                    <stop offset="100%" stop-color="#FFF"></stop>
+                    <stop offset="100%" stopColor="#FFF"></stop>
                   </linearGradient>
                   <linearGradient
                     id="b"
@@ -117,7 +117,7 @@ const Skills = () => {
                     y2="14.79%"
                   >
                     <stop offset="0%"></stop>
-                    <stop offset="100%" stop-color="#FFF"></stop>
+                    <stop offset="100%" stopColor="#FFF"></stop>
                   </linearGradient>
                 </defs>
                 <path
@@ -173,6 +173,7 @@ const Skills = () => {
               <img
                 className="skill_icon"
                 src={mashmallowIcon}
+                alt="mashmallow icon"
               />
               Marshmallow
             </li>
@@ -180,6 +181,7 @@ const Skills = () => {
               <img
                 className="skill_icon"
                 src={SQLIcon}
+                alt="sql icon"
               />
               SQL
             </li>
@@ -192,6 +194,7 @@ const Skills = () => {
               <img
                 className="skill_icon"
                 src={photoshopIcon}
+                alt="photoshop icon"
               />
               Photoshop
             </li>
@@ -199,6 +202,7 @@ const Skills = () => {
               <img
                 src={indesignIcon}
                 className="skill_icon"
+                alt="indesign icon"
               />
               InDesign
             </li>
@@ -206,6 +210,7 @@ const Skills = () => {
               <img
                 src={illustratorIcon}
                 className="skill_icon"
+                alt="illustrator icon"
               />
               Illustrator
             </li>
@@ -213,6 +218,7 @@ const Skills = () => {
               <img
                 className="skill_icon"
                 src={rhinoIcon}
+                alt="rhino icon"
               />
               Rhinoceros
             </li>
@@ -220,6 +226,7 @@ const Skills = () => {
               <img
                 className="skill_icon"
                 src={autocadIcon}
+                alt="autocad icon"
               />
               AutoCAD
             </li>
@@ -227,6 +234,7 @@ const Skills = () => {
               <img
                 className="skill_icon"
                 src={revitIcon}
+                alt="revit icon"
               />
               Revit
             </li>

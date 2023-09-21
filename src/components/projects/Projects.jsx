@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useEffect, useRef } from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
 import Scroll from "../Scroll";

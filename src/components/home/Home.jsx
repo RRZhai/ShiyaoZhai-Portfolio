@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./home.css";
 import Scroll from "../Scroll";
 import Portrait from "./Portrait";
