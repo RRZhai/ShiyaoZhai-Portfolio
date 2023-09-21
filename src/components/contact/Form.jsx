@@ -29,6 +29,7 @@ const Form = () => {
           name="name"
           className="contact__form input"
           placeholder="Insert your name"
+          required
         />
       </div>
       <div className="contact__form form">
@@ -38,6 +39,7 @@ const Form = () => {
           name="email"
           className="contact__form input"
           placeholder="Insert your email"
+          required
         />
       </div>
       <div className="contact__form form">
@@ -46,6 +48,7 @@ const Form = () => {
           name="message"
           rows="10"
           className="contact__form input"
+          required
         ></textarea>
       </div>
       <button className="button button--flex" type="submit">
