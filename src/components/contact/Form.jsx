@@ -2,32 +2,24 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
 const Form = () => {
-  const emailForm = useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_vaiwy9v",
         "template_luqedkf",
-        emailForm.current,
+        form.current,
         "YjCGcopdRZyttKPBa"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      e.target.reset()
   };
 
   return (
-    <div
+    <form
       className="contact__form all-form"
-      ref={emailForm}
+      ref={form}
       onSubmit={sendEmail}
     >
       <div className="contact__form form">
@@ -42,7 +34,7 @@ const Form = () => {
       <div className="contact__form form">
         <label className="contact__form label">Email</label>
         <input
-          type="text"
+          type="email"
           name="email"
           className="contact__form input"
           placeholder="Insert your email"
@@ -56,11 +48,11 @@ const Form = () => {
           className="contact__form input"
         ></textarea>
       </div>
-      <a href="" className="button button--flex">
+      <button className="button button--flex" type="submit">
         Send Message
         <i className="uil uil-message button_icon"></i>
-      </a>
-    </div>
+      </button>
+    </form>
   );
 };
 
