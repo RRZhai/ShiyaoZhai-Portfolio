@@ -5,7 +5,7 @@ const ContactItems = () => {
     <div className="contact all-contacts">
       <div className="contact-card email">
         <p className="contact subtitle">
-          <i class="uil uil-mailbox contact-icon"></i>Email
+          <i className="uil uil-mailbox contact-icon"></i>Email
         </p>
         <p className="contact description">shiyaozhaiwe@gmail.com</p>
       </div>
