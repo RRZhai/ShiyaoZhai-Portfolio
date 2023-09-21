@@ -11,14 +11,14 @@ const ContactItems = () => {
       </div>
       <div className="contact-card phone">
         <p className="contact subtitle">
-          <i class="uil uil-calling contact-icon"></i>
+          <i className="uil uil-calling contact-icon"></i>
           Phone
         </p>
         <p className="contact description">707-509-0074</p>
       </div>
       <div className="contact-card insta">
         <p className="contact subtitle">
-        <i class="uil uil-linkedin-alt contact-icon"></i>LinkedIn
+        <i className="uil uil-linkedin-alt contact-icon"></i>LinkedIn
         </p>
         <p className="contact description">https://www.linkedin.com/in/shiyao-zhai/</p>
       </div>
