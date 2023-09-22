@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
 import Scroll from "../Scroll";
-import image1 from "../../assets/gigu_blue.PNG";
-import image2 from "../../assets/Matching.PNG";
-import image3 from "../../assets/Haiku.png";
+import image1 from "../../assets/gigu_blue.png";
+import image2 from "../../assets/matching.png";
+import image3 from "../../assets/haiku.png";
 
 const Projects = () => {
   const projects = [
