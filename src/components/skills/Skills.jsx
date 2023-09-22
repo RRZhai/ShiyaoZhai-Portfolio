@@ -5,7 +5,7 @@ import mashmallowIcon from "../../assets/marshmallow-logo.png";
 import SQLIcon from "../../assets/SQL.png";
 import photoshopIcon from "../../assets/photoshop.png";
 import indesignIcon from "../../assets/InDesign_CC_icon.png";
-import rhinoIcon from "../../assets/rhino.jpeg";
+import rhinoIcon from "../../assets/rhino.png";
 import autocadIcon from "../../assets/autocad.png";
 import revitIcon from "../../assets/revit.png";
 import illustratorIcon from "../../assets/illustrator.png";
