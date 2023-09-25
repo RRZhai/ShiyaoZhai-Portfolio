@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac4f78c2.css",
-    "main.js": "/static/js/main.ee365a08.js",
-    "static/media/gigublue.png": "/static/media/gigublue.cf237750f4672e709bb4.png",
-    "static/media/matching.png": "/static/media/matching.cfa02d8522910935e6aa.png",
-    "static/media/ucb.png": "/static/media/ucb.c38425a27ef37824fe5d.png",
-    "static/media/cdc.png": "/static/media/cdc.055c2d0993e34a460d73.png",
-    "static/media/illustrator.png": "/static/media/illustrator.cc4d01a84add9b55916b.png",
-    "static/media/SQL.png": "/static/media/SQL.0090a77e30cd431e1988.png",
-    "static/media/rhino.png": "/static/media/rhino.5157acdb0f1c40038b3a.png",
-    "static/media/fs.png": "/static/media/fs.0c588ef3071c63c7b9bc.png",
-    "static/media/photoshop.png": "/static/media/photoshop.3e6972a59e4ecc44e53e.png",
-    "static/media/haiku.png": "/static/media/haiku.a4d33212911eedf48cf6.png",
-    "static/media/InDesign_CC_icon.png": "/static/media/InDesign_CC_icon.49bc675963933b7411a0.png",
-    "static/media/mka.png": "/static/media/mka.9379d90ae2b1959e1c78.png",
-    "static/media/autocad.png": "/static/media/autocad.f8159e25df930299275b.png",
-    "index.html": "/index.html",
-    "main.ac4f78c2.css.map": "/static/css/main.ac4f78c2.css.map",
-    "main.ee365a08.js.map": "/static/js/main.ee365a08.js.map"
+    "main.css": "/ShiyaoZhai-Portfolio/static/css/main.ac4f78c2.css",
+    "main.js": "/ShiyaoZhai-Portfolio/static/js/main.90bf8f2b.js",
+    "static/media/gigublue.png": "/ShiyaoZhai-Portfolio/static/media/gigublue.cf237750f4672e709bb4.png",
+    "static/media/matching.png": "/ShiyaoZhai-Portfolio/static/media/matching.cfa02d8522910935e6aa.png",
+    "static/media/ucb.png": "/ShiyaoZhai-Portfolio/static/media/ucb.c38425a27ef37824fe5d.png",
+    "static/media/cdc.png": "/ShiyaoZhai-Portfolio/static/media/cdc.055c2d0993e34a460d73.png",
+    "static/media/illustrator.png": "/ShiyaoZhai-Portfolio/static/media/illustrator.cc4d01a84add9b55916b.png",
+    "static/media/SQL.png": "/ShiyaoZhai-Portfolio/static/media/SQL.0090a77e30cd431e1988.png",
+    "static/media/rhino.png": "/ShiyaoZhai-Portfolio/static/media/rhino.5157acdb0f1c40038b3a.png",
+    "static/media/fs.png": "/ShiyaoZhai-Portfolio/static/media/fs.0c588ef3071c63c7b9bc.png",
+    "static/media/photoshop.png": "/ShiyaoZhai-Portfolio/static/media/photoshop.3e6972a59e4ecc44e53e.png",
+    "static/media/haiku.png": "/ShiyaoZhai-Portfolio/static/media/haiku.a4d33212911eedf48cf6.png",
+    "static/media/InDesign_CC_icon.png": "/ShiyaoZhai-Portfolio/static/media/InDesign_CC_icon.49bc675963933b7411a0.png",
+    "static/media/mka.png": "/ShiyaoZhai-Portfolio/static/media/mka.9379d90ae2b1959e1c78.png",
+    "static/media/autocad.png": "/ShiyaoZhai-Portfolio/static/media/autocad.f8159e25df930299275b.png",
+    "index.html": "/ShiyaoZhai-Portfolio/index.html",
+    "main.ac4f78c2.css.map": "/ShiyaoZhai-Portfolio/static/css/main.ac4f78c2.css.map",
+    "main.90bf8f2b.js.map": "/ShiyaoZhai-Portfolio/static/js/main.90bf8f2b.js.map"
   },
   "entrypoints": [
     "static/css/main.ac4f78c2.css",
-    "static/js/main.ee365a08.js"
+    "static/js/main.90bf8f2b.js"
   ]
 }
