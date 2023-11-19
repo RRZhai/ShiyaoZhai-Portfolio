@@ -1,4 +1,4 @@
-{   "homepage": "https://portfolio-shiyao/",
+{   "homepage": "https://rrzhai.github.io/ShiyaoZhai-Portfolio/",
     "name": "shiyao-portfolio",
     "version": "0.1.0",
     "private": true,
@@ -19,7 +19,8 @@
         "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "serve": "serve -s build"
     },
     "eslintConfig": {
         "extends": [
