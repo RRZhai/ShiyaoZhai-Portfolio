@@ -14,7 +14,7 @@ const ContactItems = () => {
           <i className="uil uil-calling contact-icon"></i>
           Phone
         </p>
-        <p className="contact description">707-509-0074</p>
+        <p className="contact description">925-876-4117</p>
       </div>
       <div className="contact-card insta">
         <p className="contact subtitle">
